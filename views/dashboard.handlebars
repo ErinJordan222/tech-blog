@@ -1,0 +1,49 @@
+<div class="card-container">
+    {{#if posts.length}}
+    <ul>
+        {{each posts}}
+        <li>
+            <a class="post-link" href="/post/{{{id}}}">
+            <div class="card">
+                <h2 class="card-header">
+                    {{title}}
+                    <span class="card-creater">
+                    Created by {{user.username}} on {{format_date created_at}}
+                    </span>
+                </h2>
+                <p class="card-text">{{text}}</p>
+                <a href="/dashboard//edit{{id}}">
+                <h3 class="card-header">Edit Post</h3>
+                </a>
+            </div>
+            </a>
+        </li>
+        {{/each}}
+
+    </ul>
+    {{/if}}
+
+    <div class="card">
+        <h2 class="card-header">
+            Create a Post
+        </h2>
+        <div class="form-container">
+            <form class="login-form">
+                <div>
+                    <label for="post-title">Title: </label><br>
+                    <input type="text" id="post-title" name="post-title">
+                </div><br>
+                <div>
+                    <label for="post-text">Text: </label><br>
+                    <textarea id="post-text" name="post-text" rows="4" cols="36"></textarea>
+                </div><br>
+                <div>
+                    <button id="create">Create Post</button><br><br>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="./public/js/add-post-js"></script>
