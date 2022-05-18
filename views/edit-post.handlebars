@@ -1,0 +1,26 @@
+<a href = "/dashboard"><h2 id = "heading">&larr; Back to Dashboard</h2></a>
+
+<div class = "card-container">
+    <div class="card">
+        <h2 class="card-header">Edit Post</h2>
+    <div class="form-container">
+        <form class="login-form">
+            <div>
+                <label for="post-title">Title: </label><br>
+                <input type="text" id="post-title" value="{{post.title}}" name="post-title">
+            </div><br>
+            <div>
+                <label for="post-text">Text: </label><br>
+                <textarea id="post-text" name="post-text" rows="4" cols="37">{{post.text}}</textarea>
+            </div><br>
+            <div>
+                <button id="save">Save Post</button><br><br>
+                <button id="delete">Delete Post</button>
+            </div>
+        </form>
+    </div>
+    </div>
+</div>
+
+<script src="./public/js/delete-post.js"></script>
+<script src="./public/js/edit-post.js"></script>
