@@ -1,0 +1,26 @@
+<div class = "card-container">
+    {{> post-info post}}
+    <div>
+        
+        <div class = "comments">
+             {{#each post.comments}}
+             <div class = "comment">
+                 <p class = "comment-author">{{user.username}} on {{format_date created_at}}</p>
+                 <h2 class = "comment-text">{{comment_text}}</h2>
+             </div>
+             {{/each}}
+        </div>
+
+        <form class = "comment-form">
+            <div>
+                <textarea name = "comment-box" id = "comment-box" rows="3" cols = "50"></textarea>
+            </div>
+            <div>
+                <button id = "add-comment" type = "submit">Add comment</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<script src="./public/js/comment.js"></script>
