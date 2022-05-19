@@ -1,0 +1,172 @@
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Book Antiqua';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #05668D;
+    color: #f0f3bd; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 20px 30px;
+    background-color: #f0f3bd;
+}
+
+nav a {
+    font-size: 22px;
+    color: #02c39a;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 0px;
+    text-decoration: none;
+}
+
+#login {
+    cursor: pointer;
+}
+/* #F0EBF4; */
+#title {
+    background-color: #028090;
+    color: #f0f3bd;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: inline-block;
+    margin: 30px 0;
+    font-size: 50px
+}
+
+.card-container {
+    padding: 100px;
+    background-color: #00a896;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.post-link {
+    text-decoration: none;
+}
+
+.card {
+    width: 100%;
+    border: 5px solid #f0f3bd;
+    color: #E64398;
+    margin: 15px 0;
+}
+
+.card-header {
+    background-color: #f0f3bd;
+    color: #05668d;
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.card-creater {
+    float: right;
+}
+
+.card-text {
+    padding: 30px;
+    font-size: 22px;
+    color: #f0f3bd;
+}
+
+.form-container {
+    color: #f0f3bd;
+    margin: 100px 40%;
+}
+
+.form-container label {
+    font-size: 22px;
+}
+
+.form-container input {
+    width: 250px;
+    height: 25px;
+    padding: 2px 5px;
+    font-size: 20px
+}
+
+textarea {
+    padding: 2px 5px;
+    font-size: 20px;
+}
+
+.form-container #signup, #login, #create, #save, #delete {
+    padding: 10px 20px;
+    border: 2px solid #028090;
+    text-align: center;
+    margin: 0 20%;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+#signup-link, #login-link {
+    margin: 20px 15%;
+    text-decoration: none;
+    color: #05668D;
+    font-size: 20px;
+}
+
+.num-comments {
+    background-color: #00a896;
+    color: #f0f3bd;
+    padding: 2px 10px;
+}
+
+.comment {
+    width: 100%;
+    border-top: 2px solid #05668D;
+    border-bottom: 2px solid #05668D;
+    border-left: none;
+    border-right: none;
+    padding: 10px 20px;
+}
+
+.comment-author {
+    font-size: 20px;
+    color:  #05668D;
+}
+
+.comment-text {
+    font-size: 22px;
+    color:  #05668D;
+}
+
+#comment-box {
+    margin: 20px 0;
+    font-size: 22px;
+    padding: 5px;
+}
+
+#add-comment {
+    font-size: 20px;
+    border: 2px solid #05668D;
+    padding: 5px 10px;
+    color: #05668D;
+}
+
+#add-comment:hover {
+    background-color: #05668D;
+    color: #f0f3bd;
+    transition-duration: 0.3s;
+}
+
+#heading {
+    color: #05668D;
+}
+
+#heading {
+    margin: 10px;
+}
