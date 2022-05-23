@@ -18,9 +18,4 @@ async function loginFormHandler(event) {
             window.location.href = '/';
         }
     }
-};
-
-// document
-//   .querySelector('#login-form')
-//   .addEventListener('submit', loginFormHandler);
-
+}

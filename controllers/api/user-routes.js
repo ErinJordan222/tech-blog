@@ -16,12 +16,15 @@ router.post('/signup', (req, res) => {
   
   
 router.post('/login', (req, res) => {
+  console.log('ur in the login post route')
     User.findOne({
       where: {
         username: req.body.username
       }
     }).then(dbUserData => {
+      console.log(dbUserData)
       if (!dbUserData) {
+      
         res.status(400).json({ message: 'No user with that username!' });
         return;
       }

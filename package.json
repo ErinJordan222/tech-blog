@@ -4,9 +4,9 @@
     "description": "tech blog project 14",
     "main": "server.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
+        "test": "jest",
         "start": "node server.js",
-        "seed": "node seeds/index.js"
+        "seed": "node ./seeds/index.js"
     },
     "author": "ErinJordan222",
     "license": "ISC",

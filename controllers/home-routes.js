@@ -18,6 +18,7 @@ router.get('/', (req, res) => {
     ]
   })
     .then(dbPostData => {
+      console.log(dbPostData)
       console.log(req.session)
       // pass a single post object into the homepage template
       const posts = dbPostData.map(post => post.get({ plain: true }))
@@ -30,6 +31,8 @@ router.get('/', (req, res) => {
 });
 
 router.get('/login', (req, res) => {
+  console.log('in the login get route')
+  console.log(req.session)
   if (req.session.loggedIn) {
     res.redirect('/');
     return;
@@ -84,6 +87,11 @@ router.get('/post/:id', (req, res) => {
   });
 
 });
+
+
+router.get('/logout',  (req, res) => {
+  res.render('homepage')
+})
 
 
 

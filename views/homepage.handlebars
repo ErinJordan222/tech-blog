@@ -6,4 +6,7 @@
         </li>
         {{/each}}
     </ul>
+    {{#unless posts as |post|}}
+    <h1>No post found</h1>
+    {{/unless}}
 </div>
