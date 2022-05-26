@@ -34,3 +34,5 @@ The usage of this repo
 
 ## Screenshots
 
+https://user-images.githubusercontent.com/92272866/170397439-8a82363e-ff30-41f1-8113-b963bd778a3b.mp4
+
