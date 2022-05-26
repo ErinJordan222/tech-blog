@@ -4,19 +4,19 @@
         {{#each posts}}
         <li>
             <a class="post-link" href="/post/{{{id}}}">
-            <div class="card">
-                <h2 class="card-header">
-                    {{title}}
-                    <span class="card-creater">
-                    Created by {{user.username}} on {{format_date created_at}}
-                    </span>
-                </h2>
-                <p class="card-text">{{text}}</p>
-                <a href="/dashboard/edit{{id}}">
-                <h3 class="card-header">Edit Post</h3>
-                <h3 class="card-header">Delete Post</h3>
-                </a>
-            </div>
+                <div class="card">
+                    <h2 class="card-header">
+                        {{title}}
+                        <span class="card-creater">
+                            Created by {{user.username}} on {{format_date created_at}}
+                        </span>
+                    </h2>
+                    <p class="card-text">{{text}}</p>
+                    <a href="/dashboard/edit/{{id}}">
+                        <h3 class="card-header">Edit Post</h3>
+                        <h3 class="card-header">Delete Post</h3>
+                    </a>
+                </div>
             </a>
         </li>
         {{/each}}

@@ -4,6 +4,7 @@ const {Post, User, Comment} = require('../../models')
 
 
 router.post('/', (req, res) => {
+    console.log('post create work')
     Post.create({
         title: req.body.title,
         text: req.body.text,
@@ -39,6 +40,7 @@ router.put('/:id', withAuth, (req, res) => {
 })
 
 router.delete('/:id', withAuth, (req, res) => {
+    console.log('in the post delete route', req.params.id)
     Post.destroy({
         where: {
             id: req.params.id
