@@ -33,7 +33,4 @@ The usage of this repo
 ### Any questions feel free to contact me at <a href="https://erinjordan2790@gmail.com">ErinJordan2790@gmail.com</a> or <a href="https://github.com/ErinJordan222">ErinJordan222</a
 
 ## Screenshots
-https://user-images.githubusercontent.com/92272866/170396986-194f9e3d-2fef-4ae8-8734-a2464b7280da.mp4
-
-
 
