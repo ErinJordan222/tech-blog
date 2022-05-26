@@ -38,7 +38,7 @@ The usage of this repo is to demonstrate my knowledge of creating a blogger prof
 ### University of Denver Coding Bootcamp.
 
 ## Questions?
-### Any questions feel free to contact me at <a href="https://erinjordan2790@gmail.com">ErinJordan2790@gmail.com</a> or <a href="https://github.com/ErinJordan222">ErinJordan222</a
+### Any questions feel free to contact me at <a href="https://erinjordan2790@gmail.com">ErinJordan2790@gmail.com</a> or <a href="https://github.com/ErinJordan222">ErinJordan222</a>
 
 ## Screenshots
 ### Video:
