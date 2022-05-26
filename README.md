@@ -1,5 +1,3 @@
-![techblogss](https://user-images.githubusercontent.com/92272866/170397675-4a0826d0-cdf3-40c9-9b11-e071f45a2bda.png)
-![techblogss2](https://user-images.githubusercontent.com/92272866/170397686-cd596367-9d85-4d86-a755-36c4ddfa340d.png)
 # The Tech Blog
 
  ![License](https://img.shields.io/badge/License-MIT-blue.svg)
@@ -37,4 +35,8 @@ The usage of this repo
 ## Screenshots
 
 https://user-images.githubusercontent.com/92272866/170397439-8a82363e-ff30-41f1-8113-b963bd778a3b.mp4
+ 
+ 
+![techblogss](https://user-images.githubusercontent.com/92272866/170397675-4a0826d0-cdf3-40c9-9b11-e071f45a2bda.png)
+![techblogss2](https://user-images.githubusercontent.com/92272866/170397686-cd596367-9d85-4d86-a755-36c4ddfa340d.png)
 
