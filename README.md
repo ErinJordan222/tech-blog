@@ -4,7 +4,7 @@
  
 ## Description
 ### Erin Jordan's tech blogger site week 14 Project for University of Denver Coding Bootcamp. 
-#### The purpose of this project is 
+#### The purpose of this project is to create a blogger site where you're prompted to create a username & login. From there you can create a post, comment on post, edit post & delete post. 
 
 * https://tech-blog-du-14.herokuapp.com/
 
@@ -12,6 +12,7 @@
 * [Description](#description)
 * [Code](#code)
 * [Usage](#usage)
+* [Instructions](#instructions)
 * [Contribution](#contribution)
 * [Questions](#questions)
 * [Screenshots](#screenshots)
@@ -24,7 +25,14 @@
 * css
 
 ## Usage
-The usage of this repo 
+The usage of this repo is to demonstrate my knowledge of creating a blogger profile. 
+
+## Instructions
+* Click on Sign Up in the top left Navbar if you do not have an account. If you do have a username, hit login & enter username & password.
+* After signing up/ logging in hit Dashboard to create a post. You will be asked to write a title & text to go with. After you're done click: Create Post.
+* Click on homepage to comment on post. 
+* If you want to edit or delete post, simply go back to dashboard & click on post you would like to edit or delete & click either or button.
+* Enjoy!
 
 ## Contribution
 ### University of Denver Coding Bootcamp.
