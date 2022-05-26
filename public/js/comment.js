@@ -9,6 +9,7 @@ async function commentFormHandler(event) {
   
     if (comment_text) {
       console.log('comments work')
+      console.log('delete/edit')
         const response = await fetch('/api/comments', {
           method: 'POST',
           body: JSON.stringify({
