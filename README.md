@@ -34,10 +34,6 @@ The usage of this repo
 
 ## Screenshots
 https://user-images.githubusercontent.com/92272866/170396986-194f9e3d-2fef-4ae8-8734-a2464b7280da.mp4
- 
- 
- ![techblogss](https://user-images.githubusercontent.com/92272866/170396850-173e5449-f3e8-43be-a3e5-d67fc8072e5c.png)
- ![techblogss2](https://user-images.githubusercontent.com/92272866/170396886-addbac6d-b5d1-4759-99dc-2a04e4526634.png)
 
 
 
