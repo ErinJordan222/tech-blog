@@ -6,7 +6,7 @@
 ### Erin Jordan's tech blogger site week 14 Project for University of Denver Coding Bootcamp. 
 #### The purpose of this project is 
 
-* https://github.com/ErinJordan222/tech-blog.git
+* https://tech-blog-du-14.herokuapp.com/
 
 ## Table of Contents
 * [Description](#description)
