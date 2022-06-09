@@ -6,7 +6,8 @@
 ### Erin Jordan's tech blogger site week 14 Project for University of Denver Coding Bootcamp. 
 #### The purpose of this project is to create a blogger site where you're prompted to create a username & login. From there you can create a post, comment on post, edit post & delete post. 
 
-* https://tech-blog-du-14.herokuapp.com/
+* https://github.com/ErinJordan222/tech-blog.git
+* https://tech-blog-du-14-2022.herokuapp.com/
 
 ## Table of Contents
 * [Description](#description)
