@@ -7,7 +7,11 @@
 #### The purpose of this project is to create a blogger site where you're prompted to create a username & login. From there you can create a post, comment on post, edit post & delete post. 
 
 * https://github.com/ErinJordan222/tech-blog.git
+<<<<<<< HEAD
 * https://tech-blog-du-14-2022.herokuapp.com/
+=======
+* https://tech-blog-du-14.herokuapp.com/
+>>>>>>> 06a035ba1239a0f6880fb646343949e364968df0
 
 ## Table of Contents
 * [Description](#description)
